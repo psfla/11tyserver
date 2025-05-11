@@ -1,0 +1,74 @@
+---
+seoimg: "/favicon.ico"
+seodesc: "adventures made in PS and FL! i don't know what those stand for"
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% if passivestyle %}
+		{{ passivestyle | safe }}
+	{% endif %}
+	<link rel='stylesheet' href='/resc/style/main.css' media='screen' type='text/css' />
+	{% if title %}
+		<title>PSFLA - {{ title }}</title>
+	{% else %}
+		<title>PSFL adventures</title>
+	{% endif %}
+	<meta name="description" content="{{seodesc}}">
+
+<!-- Google / Search Engine Tags -->
+
+	{% if title %}
+		<meta itemprop="name" content="PSFLA - {{ title }}">
+	{% else %}
+		<meta itemprop="name" content="PSFL adventures">
+	{% endif %}
+<meta itemprop="description" content="{{seodesc}}">
+<meta itemprop="image" content="https://psfla.net/{{seoimg}}">
+
+<!-- ughhhhhhhhhhhhhhhhhhFacebook Meta Tags -->
+<meta property="og:url" content="https://psfla.net/{{canonurl}}">
+<meta property="og:type" content="website">
+	{% if title %}
+		<meta property="og:title" content="PSFLA - {{ title }}">
+	{% else %}
+		<meta property="og:title" content="PSFL adventures">
+	{% endif %}
+<meta property="og:description" content="{{seodesc}}">
+<meta property="og:image" content="https://psfla.net/{{seoimg}}">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+
+	{% if title %}
+		<meta name="twitter:title" content="PSFLA - {{ title }}">
+	{% else %}
+		<meta name="twitter:title" content="PSFL adventures">
+	{% endif %}
+<meta name="twitter:description" content="{{seodesc}}">
+<meta name="twitter:image" content="https://psfla.net/{{seoimg}}">
+
+  </head>
+  <body style="margin:auto; text-align: center;">
+		<div class=header>
+					<div class=navtext> 
+						{% for item in nav %}
+							<a href={{ item.url }}>{{ item.name }}</a> <br>
+						{% endfor %}
+					</div>
+				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
+		</div>
+	<h1>{{ title }}</h1>
+	<div class=body>
+		{{ content | safe }}
+		<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
+			<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, redistribute art and writing with permission</small>
+			<small style="float: right; width: justify; max-width: 100%;">made with 11ty &lt;3</small>
+			<br>
+		</div>
+	</div>
+  </body>
+</html>

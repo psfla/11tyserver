@@ -1,0 +1,60 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel='stylesheet' href='/resc/style/main.css' media='screen' type='text/css' />
+	<link rel='stylesheet' href='/resc/style/13337.css' media='screen' type='text/css' />
+		<title>PSFLA - {{title}}</title>
+			<meta name="description" content="{{seodesc}}">
+
+<!-- Google / Search Engine Tags -->
+
+	{% if title %}
+		<meta itemprop="name" content="PSFLA - {{ title }}">
+	{% else %}
+		<meta itemprop="name" content="PSFL adventures">
+	{% endif %}
+<meta itemprop="description" content="{{seodesc}}">
+<meta itemprop="image" content="https://psfla.net/{{seoimg}}">
+
+<!-- ughhhhhhhhhhhhhhhhhhFacebook Meta Tags -->
+<meta property="og:url" content="https://psfla.net/{{canonurl}}">
+<meta property="og:type" content="website">
+	{% if title %}
+		<meta property="og:title" content="PSFLA - {{ title }}">
+	{% else %}
+		<meta property="og:title" content="PSFL adventures">
+	{% endif %}
+<meta property="og:description" content="{{seodesc}}">
+<meta property="og:image" content="https://psfla.net/{{seoimg}}">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+
+	{% if title %}
+		<meta name="twitter:title" content="PSFLA - {{ title }}">
+	{% else %}
+		<meta name="twitter:title" content="PSFL adventures">
+	{% endif %}
+<meta name="twitter:description" content="{{seodesc}}">
+<meta name="twitter:image" content="https://psfla.net/{{seoimg}}">
+
+  </head>
+  <body style="margin:auto; text-align: center;">
+		<div class=header>
+					<div class=navtext> 
+						{% for item in nav %}
+							<a href={{ item.url }}>{{ item.name }}</a> <br>
+						{% endfor %}
+					</div>
+				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
+		</div>
+	<h1>{{title|safe }}</h1>
+	<div class=body>
+		{{ content | safe }}
+	</div>
+	</script>
+  </body>
+</html>
