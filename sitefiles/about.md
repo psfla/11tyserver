@@ -17,8 +17,8 @@ the adventures on PSFLA takes heavy inspiration from andrew hussie's MSPAs, but 
 
 # ...the author!
 
-hi i'm jade leijon-harley floase - aka the webmaster of a website that's linked on this page twice >_>; \
-i love using tech to make art, and perusing around the indie web! but you <a href=https://thepersonever.net/abtme target=_blank>might already know that</a> ;p \
-i'm a lesbian trans girl! and the host of an osdd type 3 system 
+hi i'm jade floase - aka the webmaster of a website that's linked on this page twice >_>; \
+i love using tech to make art, and perusing around the indie web! but you <a href=https://thepersonever.net/abtme target=_blank>might already know that</a> ;p
 
 i don't know what else to write here
+
