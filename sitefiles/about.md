@@ -22,3 +22,7 @@ i love using tech to make art, and perusing around the indie web! but you <a hre
 
 i don't know what else to write here
 
+# other sites
+
+### other MSPAs <3
+<a href="https://github.com/homestuck/unofficial-homestuck-collection" target=_blank>andrew hussie's MSPAs</a> - <a href="https://mspfa.com/?s=59512" target=_blank>stuckhere</a> - <a href="https://mspfa.com/?s=49229" target=_blank>sburb.exe</a>
