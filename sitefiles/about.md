@@ -4,7 +4,7 @@ title: about
 seodesc: "about PSFLA, and its author"
 ---
 
-# ...the website!
+<h1>...the website!</h1>
 
 PSFLA is a website created by me (<a href=https://thepersonever.net/ target=_blank>thepersonever</a>) to host my mspaint adventures! \
 originally starting in 2024, PSFLA was first made with php. however, php sucks! so around may of 2025, i recreated it with <a href=https://www.11ty.dev/ target=_blank>11ty</a>!!
@@ -15,14 +15,20 @@ MSPAs excite me more than any other medium, due to having the flexibility of the
 
 the adventures on PSFLA takes heavy inspiration from andrew hussie's MSPAs, but i wouldn't call my adventures "fan adventures".  is bioshock a fangame based off of half life 2
 
-# ...the author!
+<h1>...the author!</h1>
 
 hi i'm jade floase - aka the webmaster of a website that's linked on this page twice >_>; \
 i love using tech to make art, and perusing around the indie web! but you <a href=https://thepersonever.net/abtme target=_blank>might already know that</a> ;p
 
 i don't know what else to write here
 
-# other sites
+<h1>other sites</h1>
 
-### other MSPAs <3
+<h2>MSPAs &lt;3<h2>
 <a href="https://github.com/homestuck/unofficial-homestuck-collection" target=_blank>andrew hussie's MSPAs</a> - <a href="https://mspfa.com/?s=59512" target=_blank>stuckhere</a> - <a href="https://mspfa.com/?s=49229" target=_blank>sburb.exe</a>
+
+<h2>link back?</h2>
+
+<a href="https://psfla.net/" target="_blank"><img src="/resc/img/psflabutton.png" alt="PSFLA button"></a> <textarea>&lt;a href="https://psfla.net/" target="_blank"&gt;&lt;img src="https://psfla.net/resc/img/psflabutton.png" alt="PSFLA button"&gt;&lt;/a&gt;</textarea>
+
+if you link to this site, send an email to `webmaster (AT) psfla.net!` with your button! your button will be added here
