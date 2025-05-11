@@ -4,6 +4,7 @@
 
 create a folder in the main directory called `_site`\
 install [nodejs](https://nodejs.org/en/download/) \
+run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser` if needbe\
 run `npm install @11ty/eleventy-plugin-rss` \
 run `npm run build` \
 that's it!
