@@ -169,10 +169,10 @@ tags: "leeet"
 				var barelyCN = window.location.pathname.replace('/a/13337/','');
 				var almostCN = barelyCN.replace('/','');
 				currentnum =(parseInt(barelyCN));
-				if ((currentnum+1) < glojson.length){ //i hate 0 indexing
+				if ((currentnum+1) < glojson.length && currentnum != 1){ //i hate 0 indexing
 					getId("linkdiv").innerHTML = "<a2 class=next>&gt; <a class=next href='javascript:changePage(true);'/>"+glojson[currentnum].title+"</a></a2>";
 					getId("goback").href = "javascript:changePage(false);";
-				} else{
+				} else if ((currentnum) != glojson.length){
 					getId("linkdiv").innerHTML = "<a2 class=next>&gt; <a class=next href='../"+(currentnum+1)+"'/>"+glojson[currentnum].title+"</a></a2>"					
 				}
 				document.addEventListener("keydown", handleKey);
@@ -307,11 +307,21 @@ function handleKey(event) {
     switch (event.key){
 		case "ArrowRight":
 			event.preventDefault();
-			changePage(true);
+			if ((currentnum+1) < glojson.length ){
+				changePage(true);
+			}
+			else if ((currentnum+1) == glojson.length){
+				window.location.href = "../"+(currentnum+1);
+			}
 			break;
 		case "ArrowLeft":
 			event.preventDefault();
-			changePage(false);
+			if ((currentnum) < glojson.length && currentnum != 1){
+				changePage(false);
+			}
+			else if (currentnum != 1){
+				window.location.href = "../"+(currentnum-1);
+			}
 			break;
 		case " ":
 			event.preventDefault();
