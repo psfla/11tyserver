@@ -21,14 +21,3 @@ hi i'm jade floase - aka the webmaster of a website that's linked on this page t
 i love using tech to make art, and perusing around the indie web! but you <a href=https://thepersonever.net/abtme target=_blank>might already know that</a> ;p
 
 i don't know what else to write here
-
-<h1>other sites</h1>
-
-<h2>MSPAs &lt;3<h2>
-<a href="https://github.com/homestuck/unofficial-homestuck-collection" target=_blank>andrew hussie's MSPAs</a> - <a href="https://mspfa.com/?s=59512" target=_blank>stuckhere</a> - <a href="https://mspfa.com/?s=49229" target=_blank>sburb.exe</a>
-
-<h2>link back?</h2>
-
-<a href="https://psfla.net/" target="_blank"><img src="/resc/img/psflabutton.png" alt="PSFLA button"></a> <textarea>&lt;a href="https://psfla.net/" target="_blank"&gt;&lt;img src="https://psfla.net/resc/img/psflabutton.png" alt="PSFLA button"&gt;&lt;/a&gt;</textarea>
-
-if you link to this site, send an email to `webmaster (AT) psfla.net!` with your button! your button will be added here
