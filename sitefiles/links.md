@@ -16,4 +16,6 @@ seodesc: "outlinks from PSFLA!"
 
 <a href="https://psfla.net/" target="_blank"><img src="/resc/img/psflabutton.png" alt="PSFLA button"></a> <textarea>&lt;a href="https://psfla.net/" target="_blank"&gt;&lt;img src="https://psfla.net/resc/img/psflabutton.png" alt="PSFLA button"&gt;&lt;/a&gt;</textarea>
 
-if you link to this site, send an email to `webmaster (AT) psfla.net`, or ping `thepersonever.net` in the nekoweb discord! your button will be added here
+if you link to this site, send an email to `webmaster (AT) psfla.net`, or ping `thepersonever.net` in the nekoweb discord! your button will be added here*
+
+<small>\*i reserve the right to ignore requests if needbe. you'll probably be added as long as you don't have gore on your site</small> <!-- proship dni -->
