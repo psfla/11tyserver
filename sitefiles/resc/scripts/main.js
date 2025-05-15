@@ -27,16 +27,17 @@ sound.src = "/resc/audio/EXPLODE.wav";
 explosion.addEventListener("ended", deleteshit);
 
 function explode(){
+	explosion.currentTime  = 0;
+	sound.currentTime  = 0;
+	
 	document.getElementById("body").appendChild(explosion);
 	document.getElementById("body").appendChild(sound);
-	document.getElementById("explode").href = "#"
 	
 	sound.play();
 	explosion.play();
 }
 
 function deleteshit(){
-	document.getElementById("body").removeChild(explosion);
 	document.getElementById("body").removeChild(sound);
-	document.getElementById("explode").href = "javascript:explode();"
+	document.getElementById("body").removeChild(explosion);
 }
