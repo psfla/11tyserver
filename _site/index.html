@@ -69,6 +69,7 @@
 			    <style>	
 	.body{
 	padding: 0;
+	overflow-x: hidden;
 	}
 	.leeet:link{
 color: #00ff00;
@@ -96,6 +97,21 @@ overflow: auto;
 border-style: none none solid solid; 
 background-color: #e6ffe6;
 height: 60vh;
+}
+
+#leeetdiv{
+width: 60%;background-color: #000000; margin-left: 0; color: #ffffff; margin: unset; overflow-x: hidden; padding: 3px; border-color: black green black black; border-radius: 0;
+}
+
+@media screen and (orientation: portrait) {
+	#leeetdiv{
+		width: 100%; 
+		border-style: none;
+	}
+	
+	.innerpages{
+	border-style: none none solid none; 
+	}
 }
     </style>
 	
@@ -249,7 +265,7 @@ height: 60vh;
 	</div>
 	
 	<!-- box for current adventure -->
-<div class="body" style='width: 60%;background-color: #000000; margin-left: 0; color: #ffffff; margin: unset; overflow-x: hidden; padding: 3px; border-color: black green black black; border-radius: 0;'>
+<div class="body" id=leeetdiv>
 	<h1>13337</h1>
 	<div class=imgdiv style='max-width: 600px;'>
 		<img src=/a/13337/files/terminal.gif class=story>
