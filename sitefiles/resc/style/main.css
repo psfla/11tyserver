@@ -158,6 +158,12 @@ max-width: 90%;
 	
 	.header{
 		width: 95vw;
+		height: 1.5in;
+	}
+	
+	.headerimg{
+		content: url("/resc/img/psflasmall.png");
+		height: 100%;
 	}
 
 	.container{
