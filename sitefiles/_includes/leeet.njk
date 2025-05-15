@@ -70,7 +70,7 @@ tags: "leeet"
 			"quality":"low",
 			"autoplay":"on",
 			"unmuteOverlay":"hidden",
-			"letterbox":"off",
+			"letterbox": "on",
 			"showSwfDownload":true,
 			"splashScreen":false,
 			"menu": false,
@@ -79,16 +79,22 @@ tags: "leeet"
 		};
 	</script>
   </head>
-  <body style="margin:auto; text-align: center;">
+  <body style="margin:auto; text-align: center;" id=body>
 		<div class=header>
 					<div class=navtext> 
-						{% for item in nav %}
-							<a href={{ item.url }}>{{ item.name }}</a> <br>
-						{% endfor %}
+						<a id=explode href="javascript:explode()">explode</a><br>
+						<a id=shownav href="javascript:shownav()">show navbar</a>
 					</div>
 				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
 		</div>
 	<h1 id=title style="max-width: 60%; margin: auto;">{{leeet.title|safe }}</h1>
+	
+<div class=container>
+	<div class=navbar id=navbar>
+		{% for item in nav %}
+			<a href={{ item.url }}>{{ item.name }}</a>
+		{% endfor %}
+	</div>	
 	<div class=body>
 	
 		<div id=prepanel style="display:inline;">
@@ -139,7 +145,7 @@ tags: "leeet"
 	</div>
 	{% if leeet.length == leeet.num %}
 	<p></p>
-	<div id=lowerbit class=body>
+	<div id=lowerbit class=body style="margin: auto; width: 60%;">
 		<div style="width: 100%; margin: auto; color: black; display: block;">
 			<div style="width: 100%; float: right; background-color: #ffffff; text-align: left; border-radius: 3px; border-color: #ffffff; border-width:medium;">
 				<p style="margin: 1%;">quickprompt</p>
@@ -151,6 +157,8 @@ tags: "leeet"
 				</script>
 		</div>
 	</div>
+</div>
+</div>
 	{% endif %}
 	<script src=/resc/scripts/swfobject.js defer></script>
 	<script src=../files/reader.js></script>
@@ -159,5 +167,6 @@ tags: "leeet"
 setTimeout( callbackFunction, 1000, "{{leeet.url}}");
 {% endif %}
 	</script>
+	<script src=/resc/scripts/main.js></script>
   </body>
 </html>

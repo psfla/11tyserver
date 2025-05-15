@@ -38,26 +38,31 @@
 <meta name="twitter:image" content="https://psfla.net//favicon.ico">
 
   </head>
-  <body style="margin:auto; text-align: center;">
+  <body id=body style="margin:auto; text-align: center;">
 		<div class=header>
 					<div class=navtext> 
-						
-							<a href=/>index</a> <br>
-						
-							<a href=/about>about</a> <br>
-						
-							<a href=/blog/>blog</a> <br>
-						
-							<a href=/links/>links</a> <br>
-						
-							<a href=/a/13337/1/>13337</a> <br>
-						
+						<a id=explode href="javascript:explode()">explode</a><br>
+						<a id=shownav href="javascript:shownav()">show navbar</a>
 					</div>
 				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
 		</div>
 	<h1>blog</h1>
-	<div class=body>
-		<p></p>
+	<div class=container>
+		<div class=navbar id=navbar>
+			
+				<a href=/>index</a>
+			
+				<a href=/about>about</a>
+			
+				<a href=/blog/>blog</a>
+			
+				<a href=/links/>links</a>
+			
+				<a href=/a/13337/1/>13337</a>
+			
+		</div>
+		<div class=body>
+			<p></p>
 						
 							<a2><a href=domainlive/>psfla.net is UP-TO-DATE!!</a> - 5/10/25</a2><br>
 						
@@ -69,11 +74,13 @@
 						
 						
 	<br><a href=/blog.xml><h2>rss feed</h2></a>
-		<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
-			<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, only redistribute art and writing with permission</small>
-			<small style="float: right; width: justify; max-width: 100%;">made with 11ty &lt;3</small>
-			<br>
+			<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
+				<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, only redistribute art and writing with permission</small>
+				<small style="float: right; width: justify; max-width: 100%;">made with 11ty &lt;3</small>
+				<br>
+			</div>
 		</div>
-	</div>
+	 </div>
+	<script src=/resc/scripts/main.js></script>
   </body>
 </html>

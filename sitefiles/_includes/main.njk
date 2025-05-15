@@ -52,23 +52,30 @@ seodesc: "adventures made in PS and FL! i don't know what those stand for"
 <meta name="twitter:image" content="https://psfla.net/{{seoimg}}">
 
   </head>
-  <body style="margin:auto; text-align: center;">
+  <body id=body style="margin:auto; text-align: center;">
 		<div class=header>
 					<div class=navtext> 
-						{% for item in nav %}
-							<a href={{ item.url }}>{{ item.name }}</a> <br>
-						{% endfor %}
+						<a id=explode href="javascript:explode()">explode</a><br>
+						<a id=shownav href="javascript:shownav()">show navbar</a>
 					</div>
 				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
 		</div>
 	<h1>{{ title }}</h1>
-	<div class=body>
-		{{ content | safe }}
-		<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
-			<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, only redistribute art and writing with permission</small>
-			<small style="float: right; width: justify; max-width: 100%;">made with 11ty &lt;3</small>
-			<br>
+	<div class=container>
+		<div class=navbar id=navbar>
+			{% for item in nav %}
+				<a href={{ item.url }}>{{ item.name }}</a>
+			{% endfor %}
 		</div>
-	</div>
+		<div class=body>
+			{{ content | safe }}
+			<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
+				<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, only redistribute art and writing with permission</small>
+				<small style="float: right; width: justify; max-width: 100%;">made with 11ty &lt;3</small>
+				<br>
+			</div>
+		</div>
+	 </div>
+	<script src=/resc/scripts/main.js></script>
   </body>
 </html>

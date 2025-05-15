@@ -40,26 +40,31 @@
 <meta name="twitter:image" content="https://psfla.net//favicon.ico">
 
   </head>
-  <body style="margin:auto; text-align: center;">
+  <body id=body style="margin:auto; text-align: center;">
 		<div class=header>
 					<div class=navtext> 
-						
-							<a href=/>index</a> <br>
-						
-							<a href=/about>about</a> <br>
-						
-							<a href=/blog/>blog</a> <br>
-						
-							<a href=/links/>links</a> <br>
-						
-							<a href=/a/13337/1/>13337</a> <br>
-						
+						<a id=explode href="javascript:explode()">explode</a><br>
+						<a id=shownav href="javascript:shownav()">show navbar</a>
 					</div>
 				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
 		</div>
 	<h1></h1>
-	<div class=body>
-		    <style>	
+	<div class=container>
+		<div class=navbar id=navbar>
+			
+				<a href=/>index</a>
+			
+				<a href=/about>about</a>
+			
+				<a href=/blog/>blog</a>
+			
+				<a href=/links/>links</a>
+			
+				<a href=/a/13337/1/>13337</a>
+			
+		</div>
+		<div class=body>
+			    <style>	
 	.body{
 	padding: 0;
 	}
@@ -238,7 +243,7 @@ height: 60vh;
 	</div>
 	
 	<!-- box for current adventure -->
-<div class="body" style='background-color: #000000; margin-left: 0; color: #ffffff; margin: unset; overflow-x: hidden; padding: 3px; border-color: black green black black; border-radius: 0;'>
+<div class="body" style='width: 60%;background-color: #000000; margin-left: 0; color: #ffffff; margin: unset; overflow-x: hidden; padding: 3px; border-color: black green black black; border-radius: 0;'>
 	<h1>13337</h1>
 	<div class=imgdiv style='max-width: 600px;'>
 		<img src=/a/13337/files/terminal.gif class=story>
@@ -299,11 +304,13 @@ function deletegame(){
   }
 }
 </script>
-		<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
-			<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, only redistribute art and writing with permission</small>
-			<small style="float: right; width: justify; max-width: 100%;">made with 11ty &lt;3</small>
-			<br>
+			<div style="  border-style: solid; border-color: green; border-width: 3px 0 0; padding: .5%;">
+				<small style="float: left; width: justify; max-width: 100%;">(c) thepersonever.net - use code freely, only redistribute art and writing with permission</small>
+				<small style="float: right; width: justify; max-width: 100%;">made with 11ty &lt;3</small>
+				<br>
+			</div>
 		</div>
-	</div>
+	 </div>
+	<script src=/resc/scripts/main.js></script>
   </body>
 </html>

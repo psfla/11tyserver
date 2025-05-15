@@ -46,7 +46,7 @@
 			"quality":"low",
 			"autoplay":"on",
 			"unmuteOverlay":"hidden",
-			"letterbox":"off",
+			"letterbox": "on",
 			"showSwfDownload":true,
 			"splashScreen":false,
 			"menu": false,
@@ -55,24 +55,30 @@
 		};
 	</script>
   </head>
-  <body style="margin:auto; text-align: center;">
+  <body style="margin:auto; text-align: center;" id=body>
 		<div class=header>
 					<div class=navtext> 
-						
-							<a href=/>index</a> <br>
-						
-							<a href=/about>about</a> <br>
-						
-							<a href=/blog/>blog</a> <br>
-						
-							<a href=/links/>links</a> <br>
-						
-							<a href=/a/13337/1/>13337</a> <br>
-						
+						<a id=explode href="javascript:explode()">explode</a><br>
+						<a id=shownav href="javascript:shownav()">show navbar</a>
 					</div>
 				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
 		</div>
 	<h1 id=title style="max-width: 60%; margin: auto;">max: address your monitor. get your ass out of there!</h1>
+	
+<div class=container>
+	<div class=navbar id=navbar>
+		
+			<a href=/>index</a>
+		
+			<a href=/about>about</a>
+		
+			<a href=/blog/>blog</a>
+		
+			<a href=/links/>links</a>
+		
+			<a href=/a/13337/1/>13337</a>
+		
+	</div>	
 	<div class=body>
 	
 		<div id=prepanel style="display:inline;">
@@ -115,5 +121,6 @@
 	<script defer>
 
 	</script>
+	<script src=/resc/scripts/main.js></script>
   </body>
 </html>

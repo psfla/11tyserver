@@ -42,19 +42,25 @@
 <meta name="twitter:image" content="https://psfla.net/{{seoimg}}">
 
   </head>
-  <body style="margin:auto; text-align: center;">
+  <body id=body style="margin:auto; text-align: center;">
 		<div class=header>
 					<div class=navtext> 
-						{% for item in nav %}
-							<a href={{ item.url }}>{{ item.name }}</a> <br>
-						{% endfor %}
+						<a id=explode href="javascript:explode()">explode</a><br>
+						<a id=shownav href="javascript:shownav()">show navbar</a>
 					</div>
 				<a href=/><img src=/resc/img/psfla.png class=headerimg></a>
 		</div>
 	<h1>{{title|safe }}</h1>
-	<div class=body>
-		{{ content | safe }}
+	<div class=container>
+		<div class=navbar id=navbar>
+			{% for item in nav %}
+				<a href={{ item.url }}>{{ item.name }}</a>
+			{% endfor %}
+		</div>
+		<div class=body>
+			{{ content | safe }}
+		</div>
 	</div>
-	</script>
+	<script src=/resc/scripts/main.js></script>
   </body>
 </html>
