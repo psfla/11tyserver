@@ -3,5 +3,6 @@
 		{"name":"about","url":"/about"},
 		{"name":"blog","url":"/blog/"},
 		{"name":"links","url":"/links/"},
-		{"name":"13337","url":"/a/13337/1/"}
+		{"name":"13337","url":"/a/13337/1/"},
+		{"name":"guestbook","url":"https://psfla.atabook.org/"}
 	]
