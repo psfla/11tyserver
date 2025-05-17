@@ -3,6 +3,7 @@ layout: main.njk
 tags: blog
 title: "psfla.net is UP-TO-DATE!! - 5/10/25"
 seodesc: "i'm so happy people will finally be able to view what i have been doing for this past week"
+date: 2025-05-10
 ---
 ##  *finally, people will be able to view what i have been doing for the past week!!!*
 

@@ -1,7 +1,9 @@
 ---
 layout: main.njk
+tags: blog
 title: "new navbar done!"
 description: "what would happen if i learned what to write for these descriptions"
+date: 2025-05-15
 ---
 
 hi!

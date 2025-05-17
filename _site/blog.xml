@@ -7,6 +7,21 @@
     <description>blogposts for the website psfla.net!</description>
     <language>en</language>
     <item>
+      <title>new navbar done!</title>
+      <link>https://psfla.net/blog/navbar/</link>
+      <description>&lt;p&gt;hi!&lt;/p&gt;
+&lt;p&gt;just finished the new navbar. it was kind of a pain to figure out how to make the background images pixelated...&lt;br&gt;
+what they don&#39;t tell you in (w3)schools is that &lt;code&gt;image-rendering: pixelated;&lt;/code&gt; applies to background images too!!&lt;/p&gt;
+&lt;p&gt;i&#39;m wondering if i should make a discord server but like. it feels a little early to be making one. so im probably gonna wait until i feel like PSFLA has an actual following&lt;br&gt;
+in the meantime... sign the new &lt;a href=&quot;https://psfla.atabook.org/&quot;&gt;guestbook!&lt;/a&gt; i literally just made it :D&lt;/p&gt;
+&lt;p&gt;but um... yeah! gonna start working on updates more soon. i&#39;m really excited i feel like i actually have people looking at my MSPAs now :3&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 14 May 2025 19:00:00 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/navbar/</guid>
+    </item>
+    <item>
       <title>psfla.net is UP-TO-DATE!! - 5/10/25</title>
       <link>https://psfla.net/blog/domainlive/</link>
       <description>&lt;h2&gt;&lt;em&gt;finally, people will be able to view what i have been doing for the past week!!!&lt;/em&gt;&lt;/h2&gt;
@@ -19,9 +34,38 @@ own prompts if nobody responds for long enough. more promo across the indieweb m
 &lt;h2&gt;- jade&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;&lt;/p&gt;
 </description>
-      <pubDate>Sun, 11 May 2025 11:49:53 CDT</pubDate>
+      <pubDate>Fri, 09 May 2025 19:00:00 CDT</pubDate>
       <dc:creator>jade floase</dc:creator>
       <guid>https://psfla.net/blog/domainlive/</guid>
+    </item>
+    <item>
+      <title>second test post - 5/8/25</title>
+      <link>https://psfla.net/blog/test2/</link>
+      <description>
+&lt;p&gt;blabedy black blubeyblubey&lt;/p&gt;
+
+&lt;h2&gt;- jade&lt;/h2&gt;
+
+
+&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
+      <pubDate>Wed, 07 May 2025 19:00:00 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/test2/</guid>
+    </item>
+    <item>
+      <title>hello oomfs - 5/8/25</title>
+      <link>https://psfla.net/blog/firstpost/</link>
+      <description>
+&lt;p&gt;hi! this is the first blogpost on the psfla rewrite
+&lt;br&gt;it&#39;s mainly for testing purposes :p
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h2&gt;- jade&lt;/h2&gt;
+
+&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
+      <pubDate>Wed, 07 May 2025 19:00:00 CDT</pubDate>
+      <dc:creator>jade floase</dc:creator>
+      <guid>https://psfla.net/blog/firstpost/</guid>
     </item>
     <item>
       <title>blog finished! - 5/8/25</title>
@@ -35,55 +79,9 @@ own prompts if nobody responds for long enough. more promo across the indieweb m
 
 &lt;h2&gt;- jade&lt;/h2&gt;
 &lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
-      <pubDate>Thu, 08 May 2025 18:38:29 CDT</pubDate>
+      <pubDate>Wed, 07 May 2025 19:00:00 CDT</pubDate>
       <dc:creator>jade floase</dc:creator>
       <guid>https://psfla.net/blog/blogfinished/</guid>
-    </item>
-    <item>
-      <title>second test post - 5/8/25</title>
-      <link>https://psfla.net/blog/test2/</link>
-      <description>
-&lt;p&gt;blabedy black blubeyblubey&lt;/p&gt;
-
-&lt;h2&gt;- jade&lt;/h2&gt;
-
-
-&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
-      <pubDate>Thu, 08 May 2025 18:30:24 CDT</pubDate>
-      <dc:creator>jade floase</dc:creator>
-      <guid>https://psfla.net/blog/test2/</guid>
-    </item>
-    <item>
-      <title>blog</title>
-      <link>https://psfla.net/blog/</link>
-      <description>&lt;p&gt;&lt;/p&gt;
-						
-							&lt;a2&gt;&lt;a href=&quot;https://psfla.net/blog/navbar/&quot;&gt;new navbar done!&lt;/a&gt; - 5/14/25&lt;/a2&gt;&lt;br&gt;
-						
-							&lt;a2&gt;&lt;a href=&quot;https://psfla.net/blog/domainlive/&quot;&gt;psfla.net is UP-TO-DATE!!&lt;/a&gt; - 5/10/25&lt;/a2&gt;&lt;br&gt;
-						
-							&lt;a2&gt;&lt;a href=&quot;https://psfla.net/blog/blogfinished/&quot;&gt;blog finished!&lt;/a&gt; - 5/8/25&lt;/a2&gt;&lt;br&gt;
-						
-						
-	&lt;br&gt;&lt;a href=&quot;https://psfla.net/blog.xml&quot;&gt;&lt;h2&gt;rss feed&lt;/h2&gt;&lt;/a&gt;</description>
-      <pubDate>Thu, 08 May 2025 18:17:51 CDT</pubDate>
-      <dc:creator>jade floase</dc:creator>
-      <guid>https://psfla.net/blog/</guid>
-    </item>
-    <item>
-      <title>hello oomfs - 5/8/25</title>
-      <link>https://psfla.net/blog/firstpost/</link>
-      <description>
-&lt;p&gt;hi! this is the first blogpost on the psfla rewrite
-&lt;br&gt;it&#39;s mainly for testing purposes :p
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h2&gt;- jade&lt;/h2&gt;
-
-&lt;a href=&quot;https://psfla.net/blog/&quot;&gt;back?&lt;/a&gt;</description>
-      <pubDate>Thu, 08 May 2025 16:53:12 CDT</pubDate>
-      <dc:creator>jade floase</dc:creator>
-      <guid>https://psfla.net/blog/firstpost/</guid>
     </item>
   </channel>
 </rss>
