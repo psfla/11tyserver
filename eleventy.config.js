@@ -8,7 +8,6 @@ import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 
 export default function (eleventyConfig) {
-	// Copy `random-folder/img/` to `_site/subfolder/img`
 	eleventyConfig.addPassthroughCopy({ "sitefiles/_data/leeet.json": "a/13337/leeet.json" });
 	eleventyConfig.addPassthroughCopy("sitefiles/a/13337/files/");
 	eleventyConfig.addPassthroughCopy("sitefiles/a/testadventure/files/");
@@ -37,6 +36,7 @@ export default function (eleventyConfig) {
 			}
 		}
 	});
+
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addLiquidFilter("dateToRfc3339", pluginRss.dateToRfc3339);
 	eleventyConfig.addLiquidFilter("dateToRfc822", pluginRss.dateToRfc822);

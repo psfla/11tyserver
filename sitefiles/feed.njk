@@ -1,0 +1,42 @@
+---json
+{
+  "permalink": "adventures.xml",
+  "eleventyExcludeFromCollections": true,
+  "metadata": {
+    "title": "PSFL... adventures",
+    "description": "rss feed of adventures posted on psfla!",
+    "language": "en",
+    "base": "https://example.com/",
+    "author": {
+      "name": "rosefloase"
+    }
+  }
+}
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="{{ metadata.base | addPathPrefixToFullUrl }}" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ metadata.title }}</title>
+    <link>{{ metadata.base | addPathPrefixToFullUrl }}</link>
+    <atom:link href="{{ permalink | htmlBaseUrl(metadata.base) }}" rel="self" type="application/rss+xml" />
+    <description>{{ metadata.description }}</description>
+    <language>{{ metadata.language or page.lang }}</language>
+    {%- for item in leeet | reverse %}
+    {%- set absolutePostUrl = "https://psfla.net/a/13337/"+item.num+"/" %}
+    <item>
+      <title>{{ item.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <description>{% if item.type == "image" %}
+		<img src="https://psfla.net/a/13337/{{item.url}}" />
+		{% else %}
+		(panel is not an image, thus will not be shown) 
+		{% endif %}
+		<br />{{ item.text }}</description>
+	  <pubDate>{{ item.date | replace("/", "-") | dateToRfc822 }}</pubDate>
+      <dc:creator>{{ metadata.author.name }}</dc:creator>
+      <guid>{{ absolutePostUrl }}</guid>
+
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>
