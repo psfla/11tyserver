@@ -4,8 +4,9 @@ title: "blog"
 seodesc: ""
 ---
 <p></p>
-						{% for item in blogfiles %}
-							<a2><a href={{item.url}}/>{{item.name}}</a> - {{item.date}}</a2><br>
-						{% endfor %}
-						
+
+{%- for blog in collections.blog reversed -%}
+  <a2><a href={{blog.url}}>{{blog.data.title}}</a><br>
+{%- endfor -%}						
+
 	<br><a href=/blog.xml><h2>rss feed</h2></a>
