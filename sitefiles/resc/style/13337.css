@@ -102,6 +102,14 @@ text-align: left;
 text-align: right;
 }
 
+#blog{
+	width: 40%;	
+}
+
+#quick{
+	width: 40%;
+}
+
 div.imgdiv{
 	background-color: #000000; 
 	margin: auto; 
@@ -145,12 +153,23 @@ display: inline;
 }
 
 @media screen and (max-device-width: 1024px) {
-a.command {
-font-size: 7vh;
-}
+	.body{
+		margin: unset;
+	}
+	
+	a.command {
+		font-size: 7vh;
+	}
 
-img.story{
-width: 100%;	
-}
+	img.story{
+		width: 100%;	
+	}
+	
+	#blog{
+		width: 100vw;
+	}
 
+	#quick{
+		width: 100vw;
+	}
 }

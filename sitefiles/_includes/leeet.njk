@@ -145,19 +145,32 @@ tags: "leeet"
 	</div>
 	{% if leeet.length == leeet.num %}
 	<p></p>
-	<div id=lowerbit class=body style="margin: auto; width: 60%;">
-		<div style="width: 100%; margin: auto; color: black; display: block;">
-			<div style="width: 100%; float: right; background-color: #ffffff; text-align: left; border-radius: 3px; border-color: #ffffff; border-width:medium;">
-				<p style="margin: 1%;">quickprompt</p>
-				<iframe src='https://iframe.chat/embed?chat=quickprompt' id='chattable' width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
-				<script>
-				  chattable.initialize({
-					stylesheet : "/resc/style/chattable.css"
-				  });
-				</script>
+	<div class=container>
+		<div id=blog class=body>
+			<a href=/adventures.xml>adventure rss feed</a>
+			<h2>latest blog post:</h2>
+			{% for blog in collections.blog | reverse %}
+				{% if loop.index == 1 %}
+					<h3>{{blog.data.title}}</h3>
+					<p>{{blog.content | safe | replace("<a href=\"../\">back?</a>", " " )}} </p>	
+				{% endif %}
+			{% endfor %}
+			<a href=/blogs/>all posts?</a>
+		</div>
+		<div id=quick class=body>
+			<div style="width: 100%; height: 90%; margin: auto; color: black; display: block;">
+				<div style="width: 100%; height: 100%; float: right; background-color: #ffffff; text-align: left; border-radius: 3px; border-color: #ffffff; border-width:medium;">
+					<p style="margin: 1%;">quickprompt</p>
+					<iframe src='https://iframe.chat/embed?chat=quickprompt' id='chattable' width="100%" height="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+					<script>
+					  chattable.initialize({
+						stylesheet : "/resc/style/chattable.css"
+					  });
+					</script>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
 </div>
 	{% endif %}
 	<script src=/resc/scripts/swfobject.js defer></script>
