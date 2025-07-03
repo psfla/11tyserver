@@ -1,5 +1,9 @@
 # PSFLA 11ty sourcedocs
 
+## legal
+you can do whatever you want with the code here, but you must give atribution to any original art or writing that you redistribute!\
+i (or contributors) may ask you to cease redistrubuting any assets at any time, and you must comply
+
 ## setting up
 
 ### linux
