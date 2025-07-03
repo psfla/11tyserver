@@ -7,7 +7,8 @@ seodesc: "outlinks from PSFLA!"
 # other sites
 
 <a href="https://jbcarreon123.nekoweb.org" target=_blank><img src="/resc/img/buttons/jbsite.gif" alt="jb's site" style="image-rendering: pixelated;"/></a>
-<a href="https://thebrainhellscape.nekoweb.org/" target=_blank><img src="/resc/img/buttons/wow.jpg" alt="the brain hell scape dot nekoweb dot org" height=31></a>
+<a href="https://thebrainhellscape.nekoweb.org/" target=_blank><img src="/resc/img/buttons/wow.jpg" alt="the brain hell scape dot nekoweb dot org" height=31></a>\
+<a href=https://vicbartends.com/ target=_blank>vicbartends.com</a>
 
 # MSPAs &lt;3
 <a href="https://github.com/homestuck/unofficial-homestuck-collection" target=_blank>andrew hussie's MSPAs</a> - <a href="https://mspfa.com/?s=59512" target=_blank>stuckhere</a> - <a href="https://mspfa.com/?s=49229" target=_blank>sburb.exe</a>
