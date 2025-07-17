@@ -19,7 +19,7 @@ function shownav(){
 
 var explosion = document.createElement("video");
 explosion.src = "/resc/img/EXPLODE.webm";
-explosion.style = "position: fixed; height: 100vh; max-width:100vw; left: 50%; transform: translate(-50%); top:0; image-rendering: pixelated;";
+explosion.style = "position: fixed; height: 100vh; max-width:100vw; left: 50%; transform: translate(-50%); top:0; image-rendering: pixelated; pointer-events: none;";
 
 var sound = document.createElement("audio");
 sound.src = "/resc/audio/EXPLODE.wav";
