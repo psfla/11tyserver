@@ -13,3 +13,7 @@ i still have windows 10 installed, and i will use it for things like fl studio, 
 i'm posting here as i finally got flash working, as well as other basic features! (like being able to update my sites...)
 this means i will be able to update more again! :D\
 additionally, i will be trying to update more consistently by coming up with commands if none are submitted within like. two days. people won't gee ay eff about this mspa if i don't update it!
+
+## - jade
+
+[back?](../)

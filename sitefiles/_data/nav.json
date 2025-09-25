@@ -4,5 +4,7 @@
 		{"name":"blog","url":"/blog/"},
 		{"name":"links","url":"/links/"},
 		{"name":"13337","url":"/a/13337/1/"},
-		{"name":"guestbook","url":"https://psfla.atabook.org/"}
+		{"name":"follow","url":"https://nekoweb.org/follow/psfla.net target=_blank"},
+		{"name":"donate","url":"https://ko-fi.com/thepersonever target=_blank"},
+		{"name":"guestbook","url":"https://psfla.atabook.org/ target=_blank"}
 	]
