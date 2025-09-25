@@ -11,10 +11,11 @@ jobs:
       # your build step here
         
       - name: deploy2nekoweb
-        uses: indiefellas/deploy2nekoweb@v4
+        uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
-          nekoweb-folder: 'psfla'
+          nekoweb-domain: 'psfla.net'
+          nekoweb-username: 'thepersonever'
           directory: '_site'
 
