@@ -13,6 +13,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("sitefiles/a/testadventure/files/");
 	eleventyConfig.addPassthroughCopy("sitefiles/favicon.ico");
 	eleventyConfig.addPassthroughCopy("sitefiles/resc/");
+	eleventyConfig.addPassthroughCopy("sitefiles/elements.css");
 	
 	eleventyConfig.addDataExtension("geojson", (contents) =>
 		JSON.parse(contents)
