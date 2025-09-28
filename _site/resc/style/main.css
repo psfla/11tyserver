@@ -84,6 +84,7 @@ max-width: 90%;
 	width: 70%;
 	overflow: auto;
 	background-color: #99ff66;
+  	padding:.5%;	
 	
 	border-style: solid;
 	border-width: medium;
