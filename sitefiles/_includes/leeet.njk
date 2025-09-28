@@ -101,19 +101,19 @@ tags: "leeet"
 		</div>
 		<div id=panel style="display:inline;">
 			{% if leeet.type == "chapter" %}
-				<a href=../map#{{leeet.chapter}}> <img src=../files/title/{{leeet.chapter}}.gif></a>
+				<a class=terminal href=../map#{{leeet.chapter}}> <img src=../files/title/{{leeet.chapter}}.gif></a>
 			{% endif %}
 			{% if leeet.length > leeet.num %}
-				<img src=../files/terminal.gif>
+				<img class=terminal src=../files/terminal.gif>
 			{% else %} 
-				<a href=https://www.tumblr.com/psfla target=_blank><img src=../files/terminal2.gif></a>
+				<a class=terminal href=https://www.tumblr.com/psfla target=_blank><img src=../files/terminal2.gif></a>
 			{% endif %} 
 			{% if leeet.type == "image" or leeet.type == "chapter" %}
-				<img src=../{{ leeet.url }}>
+				<img id=awesomeimage src=../{{ leeet.url }}>
 			{% elif leeet.type == "flash" %}
 				<script src=/resc/scripts/swfobject.js defer>
 				</script>
-				<div id="swfwrapper" style="width: 100%; max-width: 600px; height: 450px; overflow: hidden; margin: auto; text-align: center;">
+				<div id="swfwrapper">
 				<div id=swfdiv>
 
 				</div>

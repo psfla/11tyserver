@@ -4,6 +4,7 @@
 }
 
 body {
+  image-rendering: pixelated;
   background-color: #ccffff;
   color: #000000;
   font-family:"sansation";
@@ -159,12 +160,24 @@ max-width: 90%;
 	
 	.header{
 		width: 95vw;
-		height: 1.5in;
+		height: unset;
+		aspect-ratio: 296/128; 
+		padding: 1%;
+	}
+	.navtext {
+		position: inherit;
+		text-align: left;
+		z-index: 100;
+	}
+	.navtext > br{
+		display: none;
 	}
 	
 	.headerimg{
 		content: url("/resc/img/psflasmall.png");
-		height: 100%;
+		width: 98%;
+		border: none;
+		height: unset;
 	}
 
 	.container{
