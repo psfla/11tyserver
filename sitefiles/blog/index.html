@@ -5,8 +5,10 @@ seodesc: ""
 ---
 <p></p>
 
+<a2>
 {%- for blog in collections.blog reversed -%}
-  <a2><a href={{blog.url}}>{{blog.data.title}}</a><br>
+	<a href={{blog.url}}>{{blog.data.title}}</a><br>
 {%- endfor -%}						
+</a2>
 
 	<br><a href=/blog.xml><h2>rss feed</h2></a>

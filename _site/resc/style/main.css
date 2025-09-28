@@ -151,6 +151,13 @@ max-width: 90%;
 #shownav{
 	display: none;
 }
+.copyright{
+	margin: -.65%;
+
+	border-style: solid;
+	border-color: green; 
+	border-width: 3px 0 0; 
+}
 
 @media screen and (orientation: portrait) {
 	
@@ -202,6 +209,9 @@ max-width: 90%;
 
 	#shownav{
 		display: inline;
+	}
+	.copyright{
+		margin: 0;
 	}
 
 }
