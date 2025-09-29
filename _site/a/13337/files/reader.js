@@ -51,17 +51,17 @@ var chatshown = false;
 						getId("prepanel").innerHTML = "";
 					}
 					else {
-						getId("prepanel").innerHTML = "<img src=../files/terminal.gif>";
+						getId("prepanel").innerHTML = "<img class=terminal src=../files/terminal.gif>";
 					}
 					//
 					//<a href=https://www.tumblr.com/psfla target=_blank><img src=../files/terminal2.gif></a>
 					switch (glojson[currentnum].type){
 						case "image":
-							getId("panel").innerHTML = `<img src=../`+glojson[currentnum].url+`>`;
+							getId("panel").innerHTML = `<img id=awesomeimage src=../`+glojson[currentnum].url+`>`;
 						break;
 						case "flash":
 							getId("panel").innerHTML = `
-								<div id="swfwrapper" style="width: 100%; max-width: 600px; height: 450px; overflow: hidden; margin: auto; text-align: center;">
+								<div id="swfwrapper">
 								<div id=swfdiv>
 
 								</div>
@@ -69,7 +69,7 @@ var chatshown = false;
 								callbackFunction(glojson[currentnum].url);
 						break;
 						case "chapter":
-							getId("panel").innerHTML = "<a href=../map#"+glojson[currentnum].chapter+"> <img src=../files/title/"+glojson[currentnum].chapter+".gif><img src=../files/terminal.gif><img src=../"+glojson[currentnum].url+">";
+							getId("panel").innerHTML = "<a href=../map#"+glojson[currentnum].chapter+"> <img src=../files/title/"+glojson[currentnum].chapter+".gif><img src=../files/terminal.gif><img id=awesomeimage src=../"+glojson[currentnum].url+">";
 						break;
 						default:
 							getId("panel").innerHTML = "uh oh!";
