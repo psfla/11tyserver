@@ -160,6 +160,11 @@ color:#72597a;
 display: inline;
 }
 
+croco{
+color: #75ad5c;
+display: inline; 
+}
+
 @media screen and (orientation: portrait) {
 	.body{
 		margin: unset;
