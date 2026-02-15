@@ -11,7 +11,7 @@ PSFLA is a personal project created and maintained by [thepersonever](https://th
 [tangled](https://tangled.org/@thepersonever.net/psfla) - an atproto-based git network, which lets users host their repos on whatever hardware they want! (tangled also provides their own git server)
 
 ## legal
-PSFLA's source code is licensed under the most recent version of the [(C+CGL)](https://github.com/rosefloase/C-CGLhttps://github.com/rosefloase/C-CGL) license, with the following clause:  
+PSFLA's source code is licensed under the most recent version of the [(C+CGL)](https://github.com/rosefloase/C-CGL) license, with the following clause:  
 CREATIVE ITEMS may NOT be "hotlinked" or otherwise redistributed for commercial profit. additionally, if any party involved in the creation of CREATIVE ITEMS requests you to stop distributing them, you must
 
 (in non-binding terms: nobody likes you mspfa!!! get out of here!!!!!)
