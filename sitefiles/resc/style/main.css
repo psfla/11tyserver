@@ -8,7 +8,7 @@ body {
   background-color: #ccffff;
   color: #000000;
   font-family:"sansation";
-  padding:1%;	
+  padding:1%;
 }
 
 a:link{
@@ -52,7 +52,7 @@ max-width: 90%;
 }
 
 .header{
-	width: 60%; 
+	width: 60%;
 	margin: auto;
 	border-style: solid;
 	border-width: medium;
@@ -64,17 +64,17 @@ max-width: 90%;
 }
 
 .headerimg{
-	height: 12vw; 
-	display: block; 
-	position: absolute; 
-	top: 0px; 
-	border-style: none solid none none; 
-	border-width: medium; 
+	height: 12vw;
+	display: block;
+	position: absolute;
+	top: 0px;
+	border-style: none solid none none;
+	border-width: medium;
 	border-color: green;
 }
 
 .main{
-	background-color: #99ff66;	
+	background-color: #99ff66;
 	border-style: solid solid none solid;
 	border-width: medium;
 	border-color: green;
@@ -85,8 +85,8 @@ max-width: 90%;
 	width: 70%;
 	overflow: auto;
 	background-color: #99ff66;
-  	padding:.5%;	
-	
+  	padding:.5%;
+
 	border-style: solid;
 	border-width: medium;
 	border-color: green;
@@ -94,13 +94,13 @@ max-width: 90%;
 }
 
 .navtext{
-	text-align: right; 
-	overflow: auto; 
+	text-align: right;
+	overflow: auto;
 	height: 12vw;
 }
 
 .latestpages{
-	display: block; 
+	display: block;
 	float: right;
 	text-align: left;
 	width: 35%;
@@ -124,7 +124,7 @@ max-width: 90%;
 	background-color: #404040;
 	border-color: black;
 	color: white;
-	
+
 	box-sizing: border-box;
 	border-style: solid;
 	border-radius: 3px 0px 0px 3px;
@@ -155,20 +155,24 @@ max-width: 90%;
 	margin: -.66%;
 
 	border-style: solid;
-	border-color: green; 
-	border-width: 3px 0 0; 
+	border-color: green;
+	border-width: 3px 0 0;
+}
+
+.blogimg{
+    max-width: 100%;
 }
 
 @media screen and (orientation: portrait) {
-	
+
 	body{
 		padding: 0%;
 	}
-	
+
 	.header{
 		width: 95vw;
 		height: unset;
-		aspect-ratio: 296/128; 
+		aspect-ratio: 296/128;
 		padding: 1%;
 	}
 	.navtext {
@@ -182,7 +186,7 @@ max-width: 90%;
 	.navtext > br{
 		display: none;
 	}
-	
+
 	.headerimg{
 		content: url("/resc/img/psflasmall.png");
 		width: 98%;
@@ -191,7 +195,7 @@ max-width: 90%;
 	}
 
 	.container{
-		width: 100vw; 
+		width: 100vw;
 		padding: none;
 	}
 
@@ -204,7 +208,7 @@ max-width: 90%;
 	.latestpages{
 		width: 100%;
 	}
-	
+
 	.navbar{
 		display: none;
 		width: 60%;
